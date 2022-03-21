@@ -1,0 +1,376 @@
+*{
+    font-family: 'Calibri','Arial Narrow';
+    font-weight:900;    
+}
+p{
+    font-family:'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+.textb{
+    color: rgb(56, 88, 214);
+    padding: 32px;
+    font-size: 45px;
+    
+}
+.textbt{
+    color: rgb(31, 62, 114);
+}
+.textgris{
+    color: rgb(109, 123, 147);
+}
+.botons{
+    margin-top: 30px;
+    width: 200px;
+    height: 75px;
+    font-size: 22px;
+    color: rgb(109, 123, 147);
+    
+
+    background-color: rgb(255, 255, 255, .0);
+    border-radius: 5px;
+    border: none;
+    
+}
+.botons:hover{
+    background-color: rgb(41, 73, 199);
+    color: white;
+    -webkit-box-shadow: 0 10px 26px -6px rgb(41, 73, 199);
+     -moz-box-shadow: 0 10px 26px -6px rgb(41, 73, 199);
+          box-shadow: 0 10px 26px -6px rgb(41, 73, 199);
+}
+
+.fondenc2{
+    background-color: rgb(233, 241, 255);
+}
+.divg{
+    position: relative; z-index: 1;;
+    margin-top: 0px;
+    width: 1920px;
+    height: 170px;
+}
+.header{
+    width: 30%;
+    height: 100%;
+    text-align: center;
+}
+.menu{
+    float: right;
+    
+    width: 62%;
+    height: 100%;
+}
+
+.divg2{
+    position: relative;
+    margin-top: 0px;
+    width: 1920px;
+    height: 1150px;
+}
+.D1{
+    float: right;
+    width: 49.5%;
+    height: 100%;
+    background-size: 50% 50%;
+    background-repeat:no-repeat;
+    background-image: url('./imagenes/nurser.png');
+    background-size: cover;
+    z-index: 0;
+    -webkit-box-shadow: 0 -170px 10px -6px rgb(234, 239, 255);
+     -moz-box-shadow: 0 -170px 10px -6px rgb(234, 239, 255);
+          box-shadow: 0 -170px 10px -6px rgb(234, 239, 255) ;
+    
+        
+}
+
+.I1{
+    width: 50.5%;
+    height: 100%;
+    background-color:white;
+}
+.flot{
+    position: absolute; left: 8%; top: 80%;;
+    width: 1310px;
+    height: 195px;
+    background-color:rgb(255, 255, 255);
+}
+.t1{
+    padding-top: 120px;
+    margin: 0px 160px 50px 160px;
+    font-size: 100px;
+    
+}
+.p1{
+    margin: 0px 250px 50px 160px;
+    font-size: 25px;
+    line-height: 1.8;
+}
+.tbl{
+    margin: 0px 250px 50px 160px;
+    font-size: 25px;
+}
+.marcas{
+    width: 1920px;
+    height: 400px;
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+    background-image: url('./imagenes/marcas.png');
+    background-size: cover;
+}
+.info{
+    width: 1920px;
+    height: 400px;
+}
+.tt2{
+    padding-top: 60px;
+    margin: 0px 160px 50px 160px;
+    font-size: 55px;
+    
+}
+.pt2{
+    margin: 0px 1000px 50px 160px;
+    font-size: 25px;
+    line-height: 1.8;
+}
+.t20{
+    padding-top: 60px;
+    margin: 0px 160px 50px 0px;
+    font-size: 55px;
+    
+}
+.p20{
+    margin: 0px 250px 50px 0px;
+    font-size: 25px;
+    line-height: 1.8;
+}
+.gen3{
+    position: relative;
+    width: 1920px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+}
+.cuadroinf{
+    margin: 0px 25px 0px 40px;
+    width: 350px;
+    height: 460px;
+    
+}
+.efect1{
+    border: solid;
+    border-width:  4px;
+    border-color: rgb(250, 250, 255);
+    border-radius: 15px;
+}
+.efect1:hover{
+    border: none;
+    -webkit-box-shadow: 0 10px 30px 6px rgb(41, 73, 199,.2);
+     -moz-box-shadow: 0 10px 30px 6px rgb(41, 73, 199,.2);
+          box-shadow: 0 10px 30px 6px rgb(41, 73, 199,.2);    
+}
+.tc{
+    padding: 10px 90px 10px 30px;
+}
+.pc{
+    padding: 10px 90px 10px 30px;
+        line-height: 1.8;
+    }
+
+.gen4{
+    position: relative;
+    margin-top: 0px;
+    width: 1920px;
+    height: 1050px;
+}
+.D2{
+    float: right;
+    width: 51%;
+    height: 100%;
+}
+.infod2{
+    width: 100%;
+    height: 35%;
+}
+.t2{
+    padding-top: 0px;
+    margin: 0px 160px 50px 0px;
+    font-size: 55px;
+    
+}
+.p2{
+    margin: 0px 100px 50px 0px;
+    font-size: 25px;
+    line-height: 1.8;
+}
+
+.acord{
+    margin: 20px;
+    width: 612px;
+    height: 84px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+.acord:hover{
+    height: 210px;
+}
+.acord:hover .pa{
+    height: 120px;
+}
+.ta{
+    border-radius: 15px;
+    width: 100%;
+    height: 84px;
+}
+.pa{
+    border-radius: 15px;
+    width: 100%;
+    height: 0%;
+    overflow: hidden;
+}
+.pr{
+    padding: 10px 90px 10px 80px;
+    line-height: 1.8;
+}
+
+.I2{
+    
+    width: 49%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.gen5{
+    position: relative;
+    margin: 0px;
+    padding-top: 0px;
+    width: 1920px;
+    height: 1300px;
+}
+
+.D3{
+    float: right;
+    width: 49.5%;
+    height: 100%;
+    
+    overflow: hidden;
+}
+.img{
+    padding-top: 380px;
+    padding-left: 70px;
+    width: 88%;
+    height: 71%;
+}
+.I3{
+    width: 50.5%;
+    height: 100%;
+}
+.infod3{
+    width: 100%;
+    height: 48%;
+}
+.t3{
+    padding-top: 230px;
+    margin: 0px 100px 50px 150px;
+    font-size: 55px;
+    
+}
+.p3{
+    margin: 0px 100px 0px 150px;
+    font-size: 25px;
+    line-height: 1.8;
+}
+.cuadrog{
+
+    width: 100%;
+    height: 52%;
+    align-content: center;
+    display: grid;
+    gap: 50px 50px;
+    grid-template-columns: 320px 0px;
+    padding-left: 150px;
+    
+    
+}
+.cuadroinf2{
+    width: 300px;
+    height: 300px;
+}
+
+.esp{
+    width: 1920px;
+    height: 200px;
+}
+.footer1{
+    width: 1920px;
+    height: 500px;
+}
+.fg1{
+    margin: 0;
+    position: relative;
+    width: 1920px;
+    height: 350px;
+}
+.fd{
+    float: right;
+    width: 950px;
+    height: 350px;
+}
+
+.tf{
+    margin-top: 30px;
+    border-collapse: separate;
+  border-spacing:  50px 30px;
+    font-size: 20px;
+    color: rgb(109, 123, 147);
+}
+.ttf{
+    font-size: 35px;
+    color: rgb(31, 62, 114);
+}
+
+
+.fi{
+    width: 600px;
+    height: 350px;
+}
+.fg2{
+    margin: 0;
+    position: relative;
+    width: 1920px;
+    height: 100px;
+}
+.tf1{
+    color: rgb(56, 88, 214);
+    padding-top: 50px;
+    margin: 5px 0px 0px 150px;
+    font-size: 40px;
+    line-height: 1.8;
+    
+}
+.pf1{
+    padding-top: 10px;
+    margin: 5px 230px 0px 150px;
+    font-size: 20px;
+    line-height: 1.8;
+}
+
+
+.f2d{
+    float: right;
+    width: 900px;
+    height: 100px;
+}
+.f2i{
+    width: 600px;
+    height: 100px;
+}
+.pf2{
+    padding-top: 45px;
+    margin: 5px 0px 0px 150px;
+    font-size: 18px;
+    line-height: 1.8;
+}
+footer{
+    background-color: rgb(233, 241, 255);
+}
